@@ -1,0 +1,47 @@
+intents:
+- salamu
+- kwaheri
+- thibitisha
+- kataa
+- mhemko_mnzuri
+- mhemko_bila_furaha
+- changamoto_ya_bot
+- mawasiliano
+- kujitambulisha
+- huduma_za_serino
+entities:
+- PERSON
+slots:
+  PERSON:
+    type: text
+templates:
+  utter_salamu:
+  - text: Halo! Habari yako?
+  utter_furahisha:
+  - text: 'Hiki hapa kitu cha kukufurahisha:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_ilisaidia:
+  - text: Je! Hiyo ilikusaidia?
+  utter_furaha:
+  - text: Safi, endelea!
+  utter_kwaheri:
+  - text: Kwaheri
+  utter_miminibot:
+  - text: Mimi ni bot, ninaendeshwa na Serino Company.
+  utter_mawasiliano:
+  - text: Sawa, unaweza kuwasiliana nasi kupitia serino.contact@gmail.com
+  utter_huduma:
+  - text: Tunatoa huduma za Chatbot, smart search, predictive analytics, descriptive
+      analytics na sentiment analysis
+  utter_kujitambulisha:
+  - text: Habari {PERSON}!
+actions:
+- utter_salamu
+- utter_furahisha
+- utter_ilisaidia
+- utter_furaha
+- utter_kwaheri
+- utter_miminibot
+- utter_mawasiliano
+- utter_kujitambulisha
+- utter_huduma
